@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>A Special Day For AADESH</title>
+
+    <!-- IMPORTANT: OneCompiler file name -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="ink ink1"></div>
+        <div class="ink ink2"></div>
+        <div class="ink ink3"></div>
+    </div>
+
+    <div class="grain"></div>
+
+
+    <!-- Top heading -->
+    <div class="brand">
+        A SPECIAL DAY FOR
+        <span>AADESH</span>
+    </div>
+
+
+    <!-- =========================
+         ALL PAGES
+    ========================== -->
+
+    <main class="pages">
+
+
+        <!-- =========================
+             PAGE 1
+        ========================== -->
+
+        <section class="page active">
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <i></i>
+                    A special celebration begins
+                </div>
+
+
+                <h1 class="title">
+                    A Special Day
+                </h1>
+
+
+                <p class="subtitle">
+                    Today isn't just another day.
+                    <br>
+                    Something special has been prepared
+                    for someone who deserves to be celebrated.
+                </p>
+
+
+                <!-- RIBBON -->
+
+                <div class="ribbon-stage" id="ribbonStage">
+
+                    <div class="ribbon-left"></div>
+
+                    <div class="ribbon-right"></div>
+
+                    <div class="ribbon-label">
+                        FOR AADESH
+                    </div>
+
+                    <div class="scissors" id="scissors">
+                        ✂️
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="ribbon-button"
+                    id="ribbonButton"
+                    onclick="cutRibbon()"
+                >
+                    ✂️ CUT THE RIBBON
+                </button>
+
+
+                <p class="hint">
+                    Click to begin the surprise
+                </p>
+
+            </div>
+
+
+            <div class="made-by">
+                Made with ❤️ by
+                <strong>RISHAV</strong>
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PAGE 2
+        ========================== -->
+
+        <section class="page">
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <i></i>
+                    The person behind this celebration
+                </div>
+
+
+                <!-- PHOTO -->
+
+                <div class="friend-photo">
+
+                    <!--
+                    OneCompiler me image add karni ho to:
+                    image file upload karke uska exact naam yaha likho.
+
+                    Example:
+                    src="aadesh.jpg"
+                    -->
+
+                    <img
+                        src="aadesh.jpg"
+                        alt="AADESH"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');"
+                    >
+
+                    <div class="photo-fallback">
+                        AADESH ❤️
+                    </div>
+
+                    <div class="photo-glow"></div>
+
+                    <div class="photo-caption">
+                        A beautiful friendship ❤️
+                    </div>
+
+                </div>
+
+
+                <h1 class="aadesh-name">
+                    AADESH
+                </h1>
+
+
+                <div class="about-box">
+
+                    <p>
+
+                        AADESH isn't just a name.
+                        It's a name that represents a
+                        <strong>genuinely amazing person</strong>,
+                        a great friend and someone who knows
+                        how to make even normal moments feel special.
+
+                        <br><br>
+
+                        You have a way of bringing positive
+                        energy wherever you go. Your humour,
+                        kindness and personality make you
+                        someone who is genuinely easy to appreciate.
+
+                        <br><br>
+
+                        Some people are remembered because
+                        of what they say. Some because of what
+                        they do. But people like you are remembered
+                        because of <strong>how they make others feel.</strong>
+
+                    </p>
+
+                </div>
+
+
+                <button class="btn" onclick="nextPage()">
+                    CONTINUE ✦
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PAGE 3
+        ========================== -->
+
+        <section class="page">
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <i></i>
+                    Things worth saying about you
+                </div>
+
+
+                <h1 class="title small-title">
+                    Why You're Special
+                </h1>
+
+
+                <div class="compliment-grid">
+
+
+                    <div class="compliment">
+
+                        <div class="compliment-icon">
+                            🌟
+                        </div>
+
+                        <div>
+                            <h3>One Of A Kind</h3>
+
+                            <p>
+                                There is something genuinely
+                                unique about your personality.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="compliment">
+
+                        <div class="compliment-icon">
+                            ❤️
+                        </div>
+
+                        <div>
+                            <h3>A Good Heart</h3>
+
+                            <p>
+                                Your kindness and the way you
+                                care about people make you special.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="compliment">
+
+                        <div class="compliment-icon">
+                            😂
+                        </div>
+
+                        <div>
+                            <h3>Great Vibes</h3>
+
+                            <p>
+                                You know how to turn ordinary
+                                moments into unforgettable ones.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="compliment">
+
+                        <div class="compliment-icon">
+                            🤝
+                        </div>
+
+                        <div>
+                            <h3>Amazing Friend</h3>
+
+                            <p>
+                                Real friendship is about trust,
+                                memories and being there.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="compliment">
+
+                        <div class="compliment-icon">
+                            🚀
+                        </div>
+
+                        <div>
+                            <h3>Full Of Potential</h3>
+
+                            <p>
+                                You have an incredible future ahead.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="compliment">
+
+                        <div class="compliment-icon">
+                            ✨
+                        </div>
+
+                        <div>
+                            <h3>Simply AADESH</h3>
+
+                            <p>
+                                No comparison needed.
+                                Being yourself is enough.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <button class="btn" onclick="nextPage()">
+                    ONE MORE THING →
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PAGE 4
+        ========================== -->
+
+        <section class="page">
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <i></i>
+                    A message from the heart
+                </div>
+
+
+                <div class="letter">
+
+                    <p>
+
+                        Dear AADESH,
+
+                        <br><br>
+
+                        On your birthday, I just want to remind
+                        you of something that you may not hear
+                        every day:
+
+                        <br><br>
+
+                        <strong>
+                            You are genuinely appreciated.
+                        </strong>
+
+                        <br><br>
+
+                        Your friendship, your personality,
+                        your sense of humour and even the
+                        smallest things you do can mean much
+                        more than you probably realise.
+
+                        <br><br>
+
+                        I hope this new chapter of your life
+                        brings you incredible opportunities,
+                        huge achievements, peaceful days,
+                        crazy adventures and countless
+                        reasons to smile.
+
+                        <br><br>
+
+                        Keep chasing your dreams.
+                        Keep laughing.
+                        Keep being the person you are.
+
+                        <br><br>
+
+                        <strong>
+                            Your best days are still waiting for you.
+                        </strong>
+
+                        <br><br>
+
+                        Happy Birthday, AADESH. ❤️
+
+                    </p>
+
+                </div>
+
+
+                <button class="btn" onclick="nextPage()">
+                    🎁 OPEN THE FINAL SURPRISE
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PAGE 5
+        ========================== -->
+
+        <section class="page">
+
+            <div class="content final">
+
+                <div class="final-icon">
+                    🎁
+                </div>
+
+
+                <h1>
+                    AADESH,
+                    <br>
+                    THIS ONE'S FOR YOU.
+                </h1>
+
+
+                <p>
+                    You've made it to the final page...
+                    <br>
+                    but the real celebration starts now.
+                    <br>
+                    Get ready! 🎉
+                </p>
+
+
+                <button
+                    class="btn"
+                    onclick="celebrate()"
+                >
+                    🎉 CELEBRATE AADESH
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- Progress -->
+    <div class="progress">
+
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+
+
+    <!-- Music -->
+    <button
+        class="music"
+        id="musicButton"
+        onclick="toggleMusic()"
+    >
+        🔇
+    </button>
+
+
+
+    <!-- PC Cursor -->
+    <div id="customCursor">
+
+        <div class="cursor-ring"></div>
+
+        <div class="cursor-dot">
+            🎂
+        </div>
+
+    </div>
+
+
+    <!-- IMPORTANT: JS FILE -->
+    <script src="script.js"></script>
+
+</body>
+</html>
